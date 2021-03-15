@@ -201,8 +201,10 @@
 // const list = [{name : 'Bart'}]
 // console.log(list[0].name)
 
-let arr = ['https://google.com']
+// let arr = ['https://google.com']
 
-let answer = prompt('Вам 18?')
+// let answer = prompt('Вам 18?')
 
-console.log(answer)
+// console.log(answer)
+
+console.log("Johny!")
