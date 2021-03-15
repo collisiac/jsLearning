@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body {
+    padding: 30px;
+}
+
+/* #table {
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.tableHeader {
+    padding: 10px;
+}
+
+#table {
+    width: 960px;
+}
+
+.teamLineCell {
+    margin-left: 100px;
+}
+
+.teamLine input {
+    width: 100px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+.teamName {
+    margin-left: 38px;
+}
+
+#games {
+    margin-left: 62px;
+}
+
+#wins, #draws, #loses, #points {
+    margin-left: 10px;
+}
+
+#goals {
+    margin-left: -90px;
+}
+
+#position {
+    margin-left: 25px;
+    margin-right: -25px;
+}
+
+.teamName {
+    border: 1px solid black;
+    font-size: 30px;
+    width: 200px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.goals {
+    border: 1px solid black;
+    font-size: 30px;
+    width: 50px;
+    /*margin-left: 40px;*/
+    /* text-align: center;
+}
+
+#dots {
+    font-size: 30px;
+    margin-right: -290px;
+}
+
+.main{
+    width: 700px;
+}
+
+.playBtn {
+    text-align: center;
+}
+
+#play {
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid dimgrey;
+}
+
+#play:hover {
+    background-color: rgba(84,84,84,0.38);
+}
+
+.score {
+    /*border: 1px solid black;*/
+    /* color: green;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 40px;
+}  */
+
+#number {
+    border: 1px solid black;
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#binnary {
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+}
+
+#convert {
+    display: block;
+    margin-top: 15px;
+    height: 35px;
+}
+
+#result {
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 1200px;
+    font-size: 30px;
+}
